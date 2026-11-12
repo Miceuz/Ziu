@@ -47,7 +47,7 @@ class MainActivity : Activity() {
         pages.onWidthChanged = ::onWidthChanged
         pages.onZoomSettled = { scale ->
             adapter?.let {
-                it.renderScale = scale
+                it.renderScale = minOf(scale, 2f)
                 it.notifyItemRangeChanged(0, it.itemCount)
             }
         }
@@ -97,6 +97,7 @@ class MainActivity : Activity() {
         val a = PageAdapter(d, resources.getDimensionPixelSize(R.dimen.page_gap))
         a.pageWidth = pageWidth(pages.width)
         adapter = a
+        pages.doc = d
         pages.resetZoom()
         pages.adapter = a
         pages.visibility = View.VISIBLE
