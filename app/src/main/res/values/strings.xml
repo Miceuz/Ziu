@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Folio</string>
+    <string name="app_name">Žiū</string>
     <string name="open">Open PDF</string>
     <string name="cant_open">Can\'t open this PDF</string>
 </resources>

@@ -1,6 +1,6 @@
 <img src="art/icon.png" width="96" align="right">
 
-# Folio
+# Žiū
 
 Bare-bones PDF viewer for Android. Scroll, pinch or double-tap to zoom, follows device rotation. Nothing else.
 
@@ -10,7 +10,7 @@ Bare-bones PDF viewer for Android. Scroll, pinch or double-tap to zoom, follows 
 
 ## Install
 
-Download `Folio.apk` from [Releases](../../releases/latest).
+Download `Ziu.apk` from [Releases](../../releases/latest).
 
 ## Build
 
